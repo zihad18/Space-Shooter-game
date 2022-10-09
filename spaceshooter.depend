@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1665338490 source:d:\works 1\graphics\spaceshooter\main.cpp
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<GL/glut.h>
+	<math.h>
+
