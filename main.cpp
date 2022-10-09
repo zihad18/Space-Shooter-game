@@ -73,7 +73,7 @@ void introScreen()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 
-		glColor3f(1.0, 0.0, 0.0);
+		glColor3f(0.0, 1.0, 0.0);
 	displayRasterText(-425, 490, 0.0,"Jashore University of Science and Technology");
 		glColor3f(1.0, 1.0, 1.0);
 	displayRasterText(-700, 385, 0.0,"DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING");
@@ -199,12 +199,12 @@ void instructionsScreenDisplay()
 	glColor3f(1, 1, 1);
 	displayRasterText(-1100 ,300 ,0.4 ,"Key 'w' to move up.");
 	displayRasterText(-1100 ,200 ,0.4 ,"Key 's' to move down.");
-	//displayRasterText(-1100 ,100 ,0.4 ,"Key 'd' to move right.");
-	//displayRasterText(-1100 ,0 ,0.4 ,"Key 'a' to move left.");
+	displayRasterText(-1100 ,100 ,0.4 ,"Key 'd' to rotate clockwise .");
+	displayRasterText(-1100 ,0 ,0.4 ,"Key 'a' to rotate anticlockwise.");
 	displayRasterText(100 ,300 ,0.4 ,"Key 'i' to move up.");
     displayRasterText(100 ,200 ,0.4 ,"Key 'k' to move down.");
-    //displayRasterText(100 ,100 ,0.4 ,"Key 'j' to move right.");
-   // displayRasterText(100 ,0 ,0.4 ,"Key 'l' to move left.");
+    displayRasterText(100 ,100 ,0.4 ,"Key 'j' to rotate anticlockwise.");
+    displayRasterText(100 ,0 ,0.4 ,"Key 'l' to rotate clockwise.");
 	displayRasterText(-1100 ,-100 ,0.4 ,"Key 'c' to shoot, Use 'w' and 's' to change direction.");
 	displayRasterText(100 ,-100 ,0.4 ,"Key 'm' to shoot, Use 'i' and 'k' to change direction.");
 	//displayRasterText(-1100 ,-100 ,0.4 ,"The packet can be placed only when 's' is pressed before.");
